@@ -1,0 +1,98 @@
+section.top-page{  
+    background:url(../images/logo.jpg);
+    background-position: center;
+    height: 50vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    
+}
+ header.header logo {
+     width: 15px;
+}
+
+nav.nav{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    
+}
+nav li{
+    display: inline-block;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+nav.nav li a{
+    
+    display: flex;
+    color:black;
+
+}
+header.header{
+    color:black;
+    
+}
+section.top-page{
+    background-size:cover;
+}
+/* contenu de la boite */
+.section-title{  
+    background-image: url(../images/ft1.jpg);
+    font-size:50px;
+    font-family: 'Abril FatFace';
+}
+ 
+footer.footer{
+    display: inline-block;
+}
+ 
+image{
+    position: relative;
+    background-color: black;
+    background-position:left;
+}
+.section-title::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 25px;
+    height: 5px;
+    bottom: 0;
+}
+image-details{
+    background-color: #FFFFFFDF;
+    position: absolute;
+    bottom:0;
+}
+a.href{
+font-weight: bold;
+}
+body{
+
+    margin:0 auto;
+    background-color: rgb(5, 49, 51);
+    background-image: no-repeat;
+    height: 30px;
+    width: 1500px;
+}
+.p1{
+    float: right;
+    padding-right:200px ;
+    font-family: fantasy;
+    padding-top: 50px;
+}
+
+a:hover{
+    background-color:white;
+    border:1;
+    border-radius: 15px 50px;
+}
+.p2{
+    float: right;
+    padding-right:50px ;
+    font-family: fantasy;
+    padding-top: 50px;
+}
